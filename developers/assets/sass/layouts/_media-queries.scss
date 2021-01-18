@@ -1,0 +1,67 @@
+//
+// Media queries that don't go anywhere else
+//==========================================
+
+@media only screen and (min-width: 960px) {
+
+
+	/* Content
+	--------------------------------------------- */
+
+	.content {
+		float: left;
+		width: 65%;
+	}
+
+	.sidebar-content .content {
+		float: right;
+	}
+
+	.full-width-content .content {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Sidebar
+	--------------------------------------------- */
+
+	.sidebar {
+		float: right;
+		width: 30%;
+	}
+
+	.sidebar-content .sidebar {
+		float: left;
+	}
+
+	/* Author Box
+	--------------------------------------------- */
+
+
+	/* After Entry
+	--------------------------------------------- */
+
+	.after-entry {
+		padding: 40px 60px;
+	}
+
+
+	/* Entry Misc.
+	--------------------------------------------- */
+
+	.after-entry,
+	.archive-description,
+	.author-box,
+	.comment-respond,
+	.entry,
+	.entry-comments,
+	.entry-pings {
+		margin-bottom: 60px;
+	}
+
+
+
+
+
+}

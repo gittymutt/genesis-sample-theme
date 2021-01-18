@@ -1,0 +1,61 @@
+//
+// My Handiwork
+//==================
+
+
+/* peter did this */
+
+.site-header {
+	position:relative;
+}
+.header-widget-area {
+	height: 120px;
+	
+}
+
+.header-widget-area::before {
+	content: "";
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	top: 100px;
+	border-bottom: solid black 1px;
+}
+
+.header-widget-area .header-button {
+	position: absolute;
+	right: 10%;
+	top: 20px;
+}
+
+.wp-custom-logo .title-area {
+	margin-left: 10%;
+	
+}
+
+
+.nav-primary {
+	background: linear-gradient(to right, #fff 0%, #e8ebf2 10%, #e8ebf2 90%, #fff 100%);
+	/* background-color: #e8ebf2; */
+	width: 100%;
+	/* border: red dotted; */
+	position: relative;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	
+}
+
+.nav-primary .wrap {
+	width:800px;
+	margin: 0 auto;
+	/* border: red solid; */
+}
+
+h1.entry-title {
+	text-align: center;
+	visibility: hidden;
+}
+
+.nav-primary .wrap ul {
+	text-align: center;
+}
