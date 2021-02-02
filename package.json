@@ -1,0 +1,33 @@
+{
+  "name": "genesis-sample",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gittymutt/genesis-sample-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gittymutt/genesis-sample-theme/issues"
+  },
+  "homepage": "https://github.com/gittymutt/genesis-sample-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "bourbon-neat": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-bourbon": "^4.2.8",
+    "postcss": "^8.2.4",
+    "postcss-sort-media-queries": "^3.2.3"
+  },
+  "description": ""
+}

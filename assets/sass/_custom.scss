@@ -2,24 +2,27 @@
 // My Handiwork
 //==================
 
-
 /* peter did this */
 
-.site-header {
-	position:relative;
+* {
+  border: red solid 1px;
 }
+
+.site-header {
+  position:relative;
+}
+
 .header-widget-area {
-	height: 120px;
-	
+  height: 120px;
 }
 
 .header-widget-area::before {
-	content: "";
-	position: absolute;
-	left: 10%;
-	right: 10%;
-	top: 100px;
-	border-bottom: solid black 1px;
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 100px;
+  border-bottom: solid black 1px;
 }
 
 .header-widget-area .header-button {
